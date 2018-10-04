@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServletAndroid:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServletAndroid_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="OnlineBookStore - Servlet Android App/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OnlineBookStore - Servlet Android App" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Library/librerie_TWEB/postgresql-42.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/librerie_TWEB/json-simple-1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Library/librerie_TWEB/gson-2.8.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Telegram Desktop/json-simple-1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Telegram Desktop/gson-2.8.2.jar" />
+          <element id="file-copy" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.1.1/postgresql-42.1.1.jar" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="org.postgresql:postgresql:42.2.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
